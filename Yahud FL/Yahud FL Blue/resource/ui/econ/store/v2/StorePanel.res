@@ -121,6 +121,7 @@
 		"tabwidth"		"200"
 		"tabheight"		"18"
 		"transition_time" "0"
+		"yoffset" "14"
 		
 		"HeaderLine"
 		{
@@ -129,7 +130,7 @@
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"7"
-			"wide"			"f0"
+			"wide"			"0"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
@@ -144,7 +145,7 @@
 		{
 			"textinsetx"		"5"
             "textinsety"		"0"
-			"font"				"Heavy22"   
+			"font"				"Heavy18"   
 			"selectedcolor"		            "ya_MenuHi"
 			"unselectedcolor"	            "ya_MenuLo"	
 			"paintbackground"	"1"
