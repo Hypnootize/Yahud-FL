@@ -1,52 +1,33 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
+	"StreamsButton"
 	{
 		"label" "{"
-		"command" "play_casual"
-		"OnlyAtMenu" "1"
+		"command" "watch_stream"
          "tooltip" ""
 	}
-	"CompetitiveButton"
+	"ContrackerButton"
 	{
 		"label" "{"
-		"command" "play_competitive"
-		"OnlyAtMenu" "1"
-         "tooltip" ""
+		"command"	"questlog"
+		"tooltip"   ""
 	}
-	"PlayPVEButton"
+	"ConsoleButton"
 	{
 		"label" "{" 
-		"command" "play_mvm"
+		"command" "engine showconsole"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
 		"label" "}" 
 		"command" "OpenServerBrowser"
-		"OnlyAtMenu" "1"
 	}
-	"ReplayBrowserButton"
-	{
-		"label" "{"
-		"command" "engine replay_reloadbrowser"
-        "tooltip" ""
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-	}
-	"ConsoleButton"
-	{
-		"label" "" 				//edge button
-		"command" "engine con_enable 1;toggleconsole"
-		"tooltip" "Open console"
-	} 
 	"DEMOUI"
 	{
 		"label" "{"
 		"command" "engine demoui"
+		"OnlyAtMenu" "1"
 	}
 	"ToggleScoreboard"
 	{
@@ -88,18 +69,6 @@
 		"command"	"opentf2options"
 		"tooltip"   "Advanced options"
 	}
-	"StreamsButton"
-	{
-		"label"		"S"
-		"command"	"watch_stream"
-		"tooltip"   "Streams"
-	}
-	"QuestLogButton"
-	{
-		"label"		"Q"
-		"command"	"questlog"
-		"tooltip"   "Quests"
-	}
 	"CreateServerButton"
 	{
 		"label"		"l"
@@ -114,18 +83,6 @@
 	}
 	// These buttons are only shown while in-game
    
-   "ChangeServerButton"
-	{
-		"label" "}"
-		"command" "OpenServerBrowser"
-		"OnlyInGame" "1"
-	}
-	"ResumeGameButton"
-	{
-		"label"			"{"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-	}
 	"DisconnectButton"
 	{
 		"label" "{"
@@ -143,13 +100,5 @@
 		"label"			"{"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyAtMenu" "0"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
 	}
 }

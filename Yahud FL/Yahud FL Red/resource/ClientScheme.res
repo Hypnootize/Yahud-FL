@@ -5877,7 +5877,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "TanDark"
+                    "color" "ya_Main"
                     "offset" "0 1"
                 }
             }
@@ -5886,7 +5886,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "TanDark"
+                    "color" "ya_Main"
                     "offset" "1 0"
                 }
             }
@@ -5895,7 +5895,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "TanDark"
+                    "color" "ya_Main"
                     "offset" "0 0"
                 }
             }
@@ -5904,7 +5904,7 @@ Scheme
             {
                 "1"
                 {
-                    "color" "TanDark"
+                    "color" "ya_Main"
                     "offset" "0 0"
                 }
             }

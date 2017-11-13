@@ -477,7 +477,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowPaintkitsButton"
-		"xpos"				"c180"
+		"xpos"				"c170"
 		"ypos"				"270"
 		"zpos"				"6"
 		"wide"				"120"
