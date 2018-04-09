@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -118,6 +123,11 @@
 
 			"paintbackground"	"0"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -182,7 +192,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,23 +200,22 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
+			"xpos"			"19"
+			"ypos"			"0"
+			"wide"			"236"
 			"zpos"			"100"
-			"tall"			"20"
-			"visible"		"0"
+			"tall"			"0"		//20
+			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
+			"font"			"Medium14"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -217,32 +225,79 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"110"
-			"ypos"			"24"
-			"wide"			"f0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"19"
+			"ypos"			"16"
+			"wide"			"236"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"Medium14"
-			"AllCaps"		"1"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-center"
-			"labelText"		"%level%"
+			"textAlignment"	"center"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"				"67"
-				"ypos"				"4"
-				"font"				"HudFontSmallestBold"
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"north-west"
-				"AllCaps"			"0"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"Medium14"
+				"1"		"Medium14"
+				"2"		"Medium14"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"19"
+			"ypos"			"31"
+			"wide"			"236"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"Medium14"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"center"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"HudFontSmallestBold"
+				"fgcolor_override"	"TanLight"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"Medium14"
+				"1"		"Medium14"
+				"2"		"Medium14"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
