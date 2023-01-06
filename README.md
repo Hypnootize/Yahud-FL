@@ -1,12 +1,7 @@
 # Yahud-FL
-Screenshots: https://imgur.com/a/oFY3M
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+**[SCREENSHOTS ALBUM](https://imgur.com/a/oFY3M)** 
 
-Original Damage Color:
+**[INSTALLATION](https://imgur.com/a/w3Ah6)**
 
-hud_combattext_red 240
-
-hud_combattext_green 240
-
-hud_combattext_blue 20
+![](https://i.imgur.com/aEgpd6W.jpg)
