@@ -1,7 +1,0 @@
-**1)** Extract/Unzip the hud
-
-**2)** Choose between one of the 2 versions, Blue or Red. You can see the differences from the screenshots album!
-
-**3)** Copy the desired Yahud-FL folder (**NOT** Yahud-FL-Master, either Yahud FL Blue or Yahud FL Red)
-
-**4)** Paste The folder to your custom tf folder (C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom)
